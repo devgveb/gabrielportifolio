@@ -89,8 +89,47 @@ const Home = () =>{
                               </div>
                         </div>
 
-                        <div className="pr-6">
-                              <h6 className="text-sky-500 text-lg">MINHA TRAJETÓRIA</h6>
+                        <div className="col-span-2">
+
+                              <section className="grid grid-cols-5 pt-6">
+
+                                    <div className="flex flex-col items-center p-5 m-3">
+                                          <i className="fa-brands fa-react fa-3x text-blue-500"></i>
+                                          <p>React</p>
+                                    </div>
+
+                                    <div className="flex flex-col items-center p-5 m-3">
+                                          <i className="fa-brands fa-node-js fa-3x text-lime-500"></i>
+                                          <p>Node.Js</p>
+                                    </div>
+
+                                    <div className="flex flex-col items-center p-5 m-3">
+                                          <i className="fa-brands fa-typescript fa-3x"></i>
+                                          <p>Typescript</p>
+                                    </div>
+
+                                    <div className="flex flex-col items-center  p-5 m-3">
+                                          <i className="fa-brands fa-tailwind-css fa-3x z-10 text-sky-500"></i>
+                                          <p>Tailwind Css</p>
+                                    </div>
+
+                                    <div className="flex flex-col items-center p-5 m-3">
+                                          <i className="fa-brands fa-git-alt fa-3x text-orange-500"></i>
+                                          <p>Git</p>
+                                    </div>
+
+                                    <div className="flex flex-col items-center p-5 m-3">
+                                          <i className="fa-brands fa-html5 fa-3x z-10"></i>
+                                          <p>Html</p>
+                                    </div>
+
+                                    <div className="flex flex-col items-center p-5 m-3">
+                                          <i className="fa-brands fa-css fa-3x z-10"></i>
+                                          <p>Css</p>
+                                    </div>
+
+                              </section>
+                             
                         </div>
 
                         <div className="pl-6">
