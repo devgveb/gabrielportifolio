@@ -71,7 +71,7 @@ const Home = () =>{
                               
                               </div>
                               <div className="relative">
-                                    <Image src={Profile} className="relative block mr-auto ml-auto z-10" />
+                                    <Image src={Profile} alt="foto_apresentação" className="relative block mr-auto ml-auto z-10" />
                               </div>
                         </div>
 
