@@ -89,42 +89,44 @@ const Home = () =>{
                               </div>
                         </div>
 
-                        <div className="col-span-2">
+                        <div className="col-span-2 pl-10">
+
+                              <h3>Tecnologias</h3>
 
                               <section className="grid grid-cols-5 pt-6">
 
-                                    <div className="flex flex-col items-center p-5 m-3">
-                                          <i className="fa-brands fa-react fa-3x text-blue-500"></i>
-                                          <p>React</p>
+                                    <div className="flex flex-col items-center p-5 m-3 bg-gray-500/20 rounded">
+                                          <i className="fa-brands fa-react fa-4x text-blue-500 z-10"></i>
+                                          <p className="z-10">React</p>
                                     </div>
 
-                                    <div className="flex flex-col items-center p-5 m-3">
-                                          <i className="fa-brands fa-node-js fa-3x text-lime-500"></i>
+                                    <div className="flex flex-col items-center p-5 m-3 bg-gray-500/20 rounded">
+                                          <i className="fa-brands fa-node-js fa-4x text-lime-500"></i>
                                           <p>Node.Js</p>
                                     </div>
 
-                                    <div className="flex flex-col items-center p-5 m-3">
-                                          <i className="fa-brands fa-typescript fa-3x"></i>
+                                    <div className="flex flex-col items-center p-5 m-3 bg-gray-500/20 rounded">
+                                          <i className="fa-brands fa-typescript fa-4x"></i>
                                           <p>Typescript</p>
                                     </div>
 
-                                    <div className="flex flex-col items-center  p-5 m-3">
-                                          <i className="fa-brands fa-tailwind-css fa-3x z-10 text-sky-500"></i>
+                                    <div className="flex flex-col items-center  p-5 m-3 bg-gray-500/20 rounded">
+                                          <i className="fa-brands fa-tailwind-css fa-4x z-10 text-sky-500"></i>
                                           <p>Tailwind Css</p>
                                     </div>
 
-                                    <div className="flex flex-col items-center p-5 m-3">
-                                          <i className="fa-brands fa-git-alt fa-3x text-orange-500"></i>
+                                    <div className="flex flex-col items-center p-5 m-3 bg-gray-500/20 rounded">
+                                          <i className="fa-brands fa-git-alt fa-4x text-orange-500"></i>
                                           <p>Git</p>
                                     </div>
 
-                                    <div className="flex flex-col items-center p-5 m-3">
-                                          <i className="fa-brands fa-html5 fa-3x z-10"></i>
+                                    <div className="flex flex-col items-center p-5 m-3 bg-gray-500/20 rounded">
+                                          <i className="fa-brands fa-html5 fa-4x z-10"></i>
                                           <p>Html</p>
                                     </div>
 
-                                    <div className="flex flex-col items-center p-5 m-3">
-                                          <i className="fa-brands fa-css fa-3x z-10"></i>
+                                    <div className="flex flex-col items-center p-5 m-3 bg-gray-500/20 rounded">
+                                          <i className="fa-brands fa-css fa-4x z-10"></i>
                                           <p>Css</p>
                                     </div>
 
