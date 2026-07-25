@@ -8,9 +8,9 @@ const Home = () =>{
             <main>
                   <Menu /> 
 
-                  <section className="container mx-auto grid grid-cols-3 pt-6">
+                  <section className="container mx-auto grid grid-cols-1 pt-6 lg:grid-cols-3 pt-6">
 
-                        <div className="col-span-1">
+                        <div className="col-span-1 md:order-first">
                               <div className="">
                                     <p className="text-sm">Olá, Eu Sou </p>
                                     <h1 className="text-7xl text-blue-800">Gabriel Belo</h1>
@@ -65,7 +65,7 @@ const Home = () =>{
 
                               </div>
                         </div>
-                        <div className="col-span-2 relative">
+                        <div className="order-first col-span-2 relative">
 
                               <div className="absolute w-[550px] h-[550px] bg-blue-600  blur-[130px] left-1/2 -translate-x-1/2 -z-10 opacity-50">
                               
@@ -77,7 +77,7 @@ const Home = () =>{
 
                   </section>
 
-                  <section className="container mx-auto grid grid-cols-3 pt-6">
+                  <section className="container mx-auto grid  grid-cols-1 lg:grid-cols-3 pt-6">
 
                         <div className="pr-6">
                               <h6 className="text-sky-500 text-lg">Sobre Mim</h6>
