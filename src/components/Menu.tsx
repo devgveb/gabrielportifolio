@@ -7,7 +7,7 @@ const Menu = () =>{
                     <p>Analista de TI | Desenvolvedor</p>
                 </div>
 
-                <nav className="pl-5 pr-5">
+                <nav className="pl-5 pr-5 flex">
                     <ul className="flex items-center pt-5 pb-5 ">
                         <li className="pr-10"><a>Início</a></li>
                         <li className="pr-10"><a>Sobre Min</a></li>
