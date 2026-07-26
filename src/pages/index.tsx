@@ -2,6 +2,7 @@ import Menu from "@/components/Menu"
 import Image from "next/image"
 import Profile from "@/assets/img/gabriel_belo.png"
 import Head from "next/head"
+import Link from "next/link"
 
 
 const Home = () =>{
@@ -67,11 +68,7 @@ const Home = () =>{
 
                                                 <div className="flex items-center"><span><i className="fa-brands fa-github mr-4 fa-2x"></i></span><a>GitHub</a></div>
                                                 <div className="flex items-center"><span><i className="fa-brands fa-linkedin mr-4 fa-2x"></i></span><a>Linkedin</a></div>
-<<<<<<< HEAD
-                                                <div className="flex items-center"><span><i className="fa-brands fa-instagram mr-4 fa-2x"></i></span><a>Instagram</a></div>
-=======
-                                                <div className="flex items-center"><span><i className="fa-brands fa-instagram mr-4 fa-2x"></i></span><a>YouTube</a></div>
->>>>>>> c6ec50bcee7d5b46b8a18dd9e34c883fbf83c58c
+                                                <div className="flex items-center"><span><i className="fa-brands fa-instagram mr-4 fa-2x"></i></span><Link href="https://www.instagram.com/gaobr2026/">Instagram</Link></div>
 
                                           </div>
                                     </div>
