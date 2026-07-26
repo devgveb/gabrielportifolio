@@ -6,7 +6,7 @@ import Link from "next/link"
 
 
 const Home = () =>{
-      return(
+      return(    
             <main>
                   <>
                         <Head>
@@ -18,78 +18,79 @@ const Home = () =>{
                   </>
                   <Menu /> 
 
-                  <section className="container mx-auto grid grid-cols-1 pt-6 lg:grid-cols-3 pt-6">
+                  <section className="mainContainer mx-auto">
+                        <section className="flex items-center flex-wrap flex-row pt-6">
 
-                        <div className="col-span-1 md:order-first">
-                              <div className="">
-                                    <p className="text-sm">Olá, Eu Sou </p>
-                                    <h1 className="text-7xl text-blue-800">Gabriel Belo</h1>
-                                    <h3 className="pt-4 text-2xl text-blue-600">Desenvolvedor Full Stack</h3>
-                                    <p className="pt-4 text-md">Transformo ideias em aplicações web modernas,eficientes e escaláveis utilizando as melhores tecnologias do mercado.</p>
+                              <div className="basis-full lg:flex-1/3 lg:order-first ">
+                                    <div className="">
+                                          <p className="text-sm">Olá, Eu Sou </p>
+                                          <h1 className="text-7xl text-blue-800">Gabriel Belo</h1>
+                                          <h3 className="pt-4 text-2xl text-blue-600">Desenvolvedor Full Stack</h3>
+                                          <p className="pt-4 text-md">Transformo ideias em aplicações web modernas,eficientes e escaláveis utilizando as melhores tecnologias do mercado.</p>
 
-                                    <div className="pt-6 pb-6 flex items-center">
-                                          <a className="flex-1/2 bg-blue-500 rounded p-3 mr-5 text-center">Veja meus Projetos<span><i className="fa-solid fa-chevron-right"></i></span></a>
-                                          <a className="flex-1/2 border-solid border-white rounded p-3 ml-5">Entre em contato<span><i className="fa-solid fa-user"></i></span></a>
-                                    </div>
-
-                                    <div className="grid grid-cols-3 pt-6">
-                                          
-                                          <div className="flex items-center">
-                                                <section><i className="fa-solid fa-code fa-2x"></i></section>
-                                                <section className="pl-4">
-                                                      <h3 className="text-xl text-blue-500">1+</h3>
-                                                      <p className="text-sm">Ano de Experiência</p>
-                                                </section>
+                                          <div className="pt-6 pb-6 flex items-center">
+                                                <a className="flex-1/2 bg-blue-500 rounded p-3 mr-5 text-center">Veja meus Projetos<span><i className="fa-solid fa-chevron-right"></i></span></a>
+                                                <a className="flex-1/2 border-solid border-white rounded p-3 ml-5">Entre em contato<span><i className="fa-solid fa-user"></i></span></a>
                                           </div>
-
-                                          <div className="flex items-center">
-                                                <section><i className="fa-brands fa-connectdevelop fa-2x"></i></section>
-                                                <section className="pl-4">
-                                                      <h3 className="text-xl text-blue-500">8+</h3>
-                                                      <p className="text-sm">Tecnologias</p>
-                                                </section>
-                                          </div>
-
-                                          <div className="flex items-center">
-                                                <section><i className="fa-solid fa-handshake-angle fa-2x"></i></section>
-                                                <section className="pl-4">
-                                                      <h3 className="text-xl text-blue-500">100%</h3>
-                                                      <p className="text-sm">Comprometimento</p>
-                                                </section>
-                                          </div>
-
-
-                                    </div>
-
-                                    <div>
-                                          <h3 className="text-ms pt-10">Conecte-se comigo</h3>
 
                                           <div className="grid grid-cols-3 pt-6">
+                                                
+                                                <div className="flex items-center">
+                                                      <section><i className="fa-solid fa-code fa-2x"></i></section>
+                                                      <section className="pl-4">
+                                                            <h3 className="text-xl text-blue-500">1+</h3>
+                                                            <p className="text-sm">Ano de Experiência</p>
+                                                      </section>
+                                                </div>
 
-                                                <div className="flex items-center"><span><i className="fa-brands fa-github mr-4 fa-2x"></i></span><a>GitHub</a></div>
-                                                <div className="flex items-center"><span><i className="fa-brands fa-linkedin mr-4 fa-2x"></i></span><a>Linkedin</a></div>
-                                                <div className="flex items-center"><span><i className="fa-brands fa-instagram mr-4 fa-2x"></i></span><Link href="https://www.instagram.com/gaobr2026/">Instagram</Link></div>
+                                                <div className="flex items-center">
+                                                      <section><i className="fa-brands fa-connectdevelop fa-2x"></i></section>
+                                                      <section className="pl-4">
+                                                            <h3 className="text-xl text-blue-500">8+</h3>
+                                                            <p className="text-sm">Tecnologias</p>
+                                                      </section>
+                                                </div>
+
+                                                <div className="flex items-center">
+                                                      <section><i className="fa-solid fa-handshake-angle fa-2x"></i></section>
+                                                      <section className="pl-4">
+                                                            <h3 className="text-xl text-blue-500">100%</h3>
+                                                            <p className="text-sm">Comprometimento</p>
+                                                      </section>
+                                                </div>
+
 
                                           </div>
+
+                                          <div>
+                                                <h3 className="text-ms pt-10">Conecte-se comigo</h3>
+
+                                                <div className="grid grid-cols-3 pt-6">
+
+                                                      <div className="flex items-center"><span><i className="fa-brands fa-github mr-4 fa-2x"></i></span><a>GitHub</a></div>
+                                                      <div className="flex items-center"><span><i className="fa-brands fa-linkedin mr-4 fa-2x"></i></span><a>Linkedin</a></div>
+                                                      <div className="flex items-center"><span><i className="fa-brands fa-instagram mr-4 fa-2x"></i></span><Link href="https://www.instagram.com/gaobr2026/">Instagram</Link></div>
+
+                                                </div>
+                                          </div>
+
                                     </div>
-
                               </div>
-                        </div>
-                        <div className="order-first col-span-2 relative">
+                              <div className="basis-full order-first lg:flex-2/3 relative">
 
-                              <div className="absolute w-[550px] h-[550px] bg-blue-600  blur-[130px] left-1/2 -translate-x-1/2 -z-10 opacity-50">
-                              
+                                    <div className="absolute w-[550px] h-[550px] bg-blue-600  blur-[130px] left-1/2 -translate-x-1/2 -z-10 opacity-50">
+                                    
+                                    </div>
+                                    <div className="relative">
+                                          <Image src={Profile} alt="foto_apresentação" className="relative block mr-auto ml-auto z-10 " />
+                                    </div>
                               </div>
-                              <div className="relative">
-                                    <Image src={Profile} alt="foto_apresentação" className="relative block mr-auto ml-auto z-10" />
-                              </div>
-                        </div>
 
+                        </section>
                   </section>
+                  <section className="mainContainer mx-auto flex flex-row flex-wrap pt-6">
 
-                  <section className="container mx-auto grid  grid-cols-1 lg:grid-cols-3 pt-6">
-
-                        <div className="pr-6">
+                        <div className="pr-6 lg:flex-1/3">
                               <h6 className="text-sky-500 text-lg">Sobre Mim</h6>
 
                               <p className="text-md pt-3">Sou Técnico em Informática na empresa Asa do Brasil e Desenvolvedor Web. Tenho paixão por tecnologia e por criar soluções que realmente fazem a diferença.<br/>Atuo com foco em performancer, experiência do usuario e codigo de qualidade.</p>
@@ -99,7 +100,7 @@ const Home = () =>{
                               </div>
                         </div>
 
-                        <div className="col-span-2 pl-10">
+                        <div className="lg:flex-2/3 pl-10">
 
                               <h3>Tecnologias</h3>
 
