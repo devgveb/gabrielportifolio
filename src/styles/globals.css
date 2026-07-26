@@ -11,8 +11,8 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.container-content{
-  width: 90%;
+.mainContainer{
+  width: 80%;
   height: auto;
   margin: 0 auto;
 }
