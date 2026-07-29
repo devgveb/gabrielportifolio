@@ -15,6 +15,7 @@ const Home = () =>{
                               <meta name="description" content="Bem-vindo ao meu portfólio! Aqui você conhece um pouco sobre mim, minha trajetória e meus trabalhos na área de tecnologia." />
                               <meta name="robots" content="index,follow"/>
                               <meta name="author" content="Gabriel Belo, Gveb Networs"/>
+                              <meta name="viewport" content="width=device-width, initial-scale=1"/>
                               
                         </Head>
                   
