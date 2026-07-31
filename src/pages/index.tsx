@@ -91,7 +91,7 @@ const Home = () =>{
 
                         </section>
                   </section>
-                  <section className="mainContainer mx-auto flex flex-row flex-wrap pt-6">
+                  <section className="mainContainer mx-auto flex flex-row flex-wrap pt-6 pb-6">
 
                         <div className="pr-6 lg:basis-1/3">
                               <h6 className="text-sky-500 text-lg">Sobre Mim</h6>
@@ -162,47 +162,11 @@ const Home = () =>{
                              
                         </div>
 
-                        <div className="w-full flex flex-wrap flex-row pl-6">
-                              <div className=" w-full lg:basis-2/3">
-                                    <h6 className="text-sky-500 text-lg">SERVIÇOS</h6>
-
-                                    <div className="flex items-center">
-
-                                          <section>
-                                                <i className="fa-solid fa-screwdriver-wrench text-sky-600 fa-2x m-6"></i>
-                                          </section>
-                                          <section>
-                                                <h6 className="text-white text-md">Manutenção e Suporte</h6>
-                                                <p>Suporte técnico e manutenção para garantir a performance do seu sistema.</p>                                    
-                                          </section>
-                                    </div>
-
-                                    <div className="flex items-center">
-
-                                          <section>
-                                                <i className="fa-brands fa-whmcs text-sky-500 fa-2x m-6"></i>
-                                          </section>
-                                          <section>
-                                                <h6 className="text-white text-md">Integrações & APIs</h6>
-                                                <p>Suporte técnico e manutenção para garantir a performance do seu sistema.</p>                                    
-                                          </section>
-                                    </div>
-
-                                    <div className="flex items-center">
-
-                                          <section>
-                                                <i className="fa-solid fa-terminal text-sky-500 fa-2x m-6"></i>
-                                          </section>
-                                          <section>
-                                                <h6 className="text-white text-md">Desenvolvimento Web</h6>
-                                                <p>Criação de sites e aplicações web modernas e responsivas.</p>                                    
-                                          </section>
-                                    </div>
-
-                              </div>
-                        </div>
-
+                        
                   </section>
+                  <footer className="mainContainer border-t-2 border-solid border-gray-500/50">
+                              <p className="text-center p-4">© 2026 Gabriel Belo. Todos os direitos reservados.</p>
+                  </footer>
             </main>
       )
 }
