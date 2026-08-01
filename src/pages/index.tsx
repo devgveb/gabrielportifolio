@@ -1,6 +1,9 @@
 import Menu from "@/components/Menu"
 import Image from "next/image"
 import Profile from "@/assets/img/gabriel_belo.png"
+import Projecta from "@/assets/img/portifolio_pizzaria.png"
+import Projectb from "@/assets/img/portifolio_pessoal.png"
+import Projectc from "@/assets/img/auth_login.png"
 import Head from "next/head"
 import Link from "next/link"
 
@@ -164,6 +167,52 @@ const Home = () =>{
 
                         
                   </section>
+
+                  <section className="mainContainer pb-6">
+                        <h3 className="text-4xl pb-6">Projetos em destaque</h3>
+
+                        <div className="grid  grid-cols-1 md:grid-cols-3 gap-6">
+
+                              <section className="shadow-[0_0_6px] shadow-gray rounded">
+                                    <div className="w-full">
+                                          <Image src={Projecta} alt="Projeto Site de Pizzas" className="rounded w-full object-cover"/>
+                                    </div>
+
+                                    <div className="p-5">
+                                          <h5 className="text-xl text-bold">Projeto Pizzaria Sabor & Arte</h5>
+                                          <p className="text-md pt-3">Site institucional estático moderno para pizzaria com cardápio online e opção de contato.</p>
+                                    </div>
+                              </section>
+
+                              <section className="shadow-[0_0_6px] shadow-gray rounded">
+
+                                    <div className="w-full">
+                                          <Image src={Projectb} alt="Projeto de Site Pessoal" className="rounded w-full object-cover" />
+                                    </div>
+
+                                    <div className="p-5">
+                                          <h5 className="text-xl text-bold">Portifólio Pessoal</h5>
+                                          <p className="text-md pt-3">Site pessoal desenvolvido para apresentar projetos, habilidades e serviços.</p>
+                                    </div>
+
+                              </section>
+
+                              <section className="shadow-[0_0_6px] shadow-gray rounded ">
+                                    <div className="w-full">
+                                          <Image src={Projectc} className="rounded w-full object-cover"  alt="Projeto Sistema de Login" />
+                                    </div>
+
+                                    <div className="p-5">
+                                          <h5 className="text-xl text-bold">Sistema de Autenticação</h5>
+                                          <p className="text-md pt-3">Projeto desenvolvido para demonstrar alguns metodos de autenticação e permissão de usuario.</p>
+                                    </div>
+                              </section>
+
+
+                        </div>
+
+                  </section>
+
                   <footer className="mainContainer border-t-2 border-solid border-gray-500/50">
                               <p className="text-center p-4">© 2026 Gabriel Belo. Todos os direitos reservados.</p>
                   </footer>
